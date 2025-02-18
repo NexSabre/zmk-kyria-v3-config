@@ -17,6 +17,36 @@
  */
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        print-dash-greater {
+            bindings = <&printdashgreater>;
+            key-positions = <5 6>;
+        };
+
+        print-equal-greater {
+            bindings = <&printequalgreater>;
+            key-positions = <17 18>;
+        };
+    };
+
+    macros {
+        printdashgreater: printdashgreater {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp MINUS &kp GT>;
+            label = "PRINTDASHGREATER";
+        };
+
+        printequalgreater: printequalgreater {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp EQUAL &kp GT>;
+            label = "PRINTEQUALGREATER";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
