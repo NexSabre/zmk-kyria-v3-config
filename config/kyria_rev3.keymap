@@ -69,5 +69,14 @@
                                     &trans     &trans          &trans  &trans  &trans  &trans  &trans  &trans         &trans          &trans
             >;
         };
+
+        layer_4_shift {
+            bindings = <
+&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                                                       &kp NUMBER_6       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp EQUAL
+&kp TILDE  &kp EXCL      &trans        &trans        &trans        &trans                                                             &kp CARET          &kp AMPS      &kp ASTRK     &kp LPAR      &kp RPAR      &kp PLUS
+&trans     &trans        &trans        &trans        &trans        &kp LEFT_BRACKET  &kp LEFT_BRACE  &trans  &trans  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp UNDER     &kp COMMA     &kp DOT       &kp SLASH     &kp QUESTION
+                                       &trans        &trans        &trans            &trans          &trans  &trans  &trans           &trans             &trans        &trans
+            >;
+        };
     };
 };
