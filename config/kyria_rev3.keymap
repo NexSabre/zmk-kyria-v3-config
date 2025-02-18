@@ -58,10 +58,10 @@
             //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 
             bindings = <
-&kp TAB           &kp Q           &kp W            &kp E               &kp R             &kp T                                                       &kp Y          &mt RIGHT_PARENTHESIS U  &mt RIGHT_BRACKET I     &mt RIGHT_BRACE O   &mt GREATER_THAN P   &kp BACKSPACE
-&mt LCTRL ESCAPE  &mt LEFT_GUI A  &mt RIGHT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &kp G                                                       &kp H          &mt LEFT_SHIFT J         &mt LCTRL K             &mt RIGHT_ALT L     &mt LEFT_GUI SEMI    &kp SQT
-&kp LSHFT         &kp Z           &kp X            &kp C               &kp V             &kp B                &kp LSHFT  &kp CLCK  &mo 3  &kp LSHFT  &kp N          &mt LEFT_PARENTHESIS M   &mt LEFT_BRACKET COMMA  &mt LEFT_BRACE DOT  &mt LESS_THAN SLASH  &kp RCTRL
-                                                   &mo 4               &kp LEFT_GUI      &mt LEFT_ALT RETURN  &kp SPACE  &mo 1     &mo 2  &kp SPACE  &kp RIGHT_ALT  &kp BSPC                 &kp K_CONTEXT_MENU
+&kp TAB           &kp Q           &kp W            &kp E               &kp R             &kp T                                                                      &kp Y          &mt RIGHT_PARENTHESIS U  &mt RIGHT_BRACKET I     &mt RIGHT_BRACE O   &mt GREATER_THAN P   &kp BACKSPACE
+&mt LCTRL ESCAPE  &mt LEFT_GUI A  &mt RIGHT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &kp G                                                                      &kp H          &mt LEFT_SHIFT J         &mt LCTRL K             &mt RIGHT_ALT L     &mt LEFT_GUI SEMI    &kp SQT
+&kp LSHFT         &kp Z           &kp X            &kp C               &kp V             &kp B                &kp LEFT_BRACKET  &kp CLCK  &mo 3  &kp RIGHT_BRACKET  &kp N          &mt LEFT_PARENTHESIS M   &mt LEFT_BRACKET COMMA  &mt LEFT_BRACE DOT  &mt LESS_THAN SLASH  &kp RCTRL
+                                                   &mo 4               &kp LEFT_GUI      &mt LEFT_ALT RETURN  &kp SPACE         &mo 1     &mo 2  &kp SPACE          &kp RIGHT_ALT  &kp BSPC                 &kp K_CONTEXT_MENU
             >;
         };
 
@@ -69,7 +69,7 @@
             bindings = <
 &trans  &trans        &trans        &trans     &trans          &trans                                  &kp PAGE_UP    &kp HOME        &kp UP_ARROW      &kp END     &kp C_VOLUME_UP    &kp DELETE
 &trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans                                  &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT   &kp C_VOLUME_DOWN  &kp INS
-&trans  &trans        &trans        &trans     &trans          &trans  &trans  &trans  &trans  &trans  &kp C_PAUSE    &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp K_MUTE         &kp PRINTSCREEN
+&trans  &trans        &trans        &trans     &trans          &trans  &trans  &trans  &trans  &trans  &kp C_PAUSE    &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_MUTE         &kp PRINTSCREEN
                                     &trans     &trans          &trans  &trans  &trans  &trans  &trans  &trans         &trans          &trans
             >;
         };
