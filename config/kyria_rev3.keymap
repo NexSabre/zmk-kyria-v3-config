@@ -16,6 +16,14 @@
 };
  */
 
+&mt {
+    flavor = "balanced";
+    tapping-term-ms = <350>;
+    quick-tap-ms = <175>;
+    require-prior-idle-ms = <150>;
+};
+
+
 / {
     combos {
         compatible = "zmk,combos";
