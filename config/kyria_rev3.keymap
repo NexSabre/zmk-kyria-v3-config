@@ -23,7 +23,6 @@
     require-prior-idle-ms = <150>;
 };
 
-
 / {
     combos {
         compatible = "zmk,combos";
@@ -36,6 +35,11 @@
         print-equal-greater {
             bindings = <&printequalgreater>;
             key-positions = <17 18>;
+        };
+
+        vscode_terminal {
+            bindings = <&none>;
+            key-positions = <4 7>;
         };
     };
 
@@ -52,6 +56,13 @@
             #binding-cells = <0>;
             bindings = <&kp EQUAL &kp GT>;
             label = "PRINTEQUALGREATER";
+        };
+
+        vscode_terminal: vscode_terminal {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(TILDE)>;
+            label = "VSCODE_TERMINAL";
         };
     };
 
