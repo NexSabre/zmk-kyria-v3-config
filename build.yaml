@@ -16,10 +16,13 @@
 #     snippet: studio-rpc-usb-uart
 #     cmake-args: -DCONFIG_ZMK_STUDIO=y
 #     artifact-name: corne_left_with_studio
-#
+# for the dongle
+# https://github.com/carrefinho/prospector-zmk-module/tree/feat/new-status-screensi
 ---
 include:
   - board: nice_nano//zmk
     shield: kyria_rev3_left
   - board: nice_nano//zmk
     shield: kyria_rev3_right
+  - board: xiao_ble//zmk
+    shield: kyria_rev3_right_dongle prospector_adapter
