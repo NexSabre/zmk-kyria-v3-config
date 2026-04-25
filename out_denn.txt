@@ -1,0 +1,4 @@
+DennGk/zmk-config:boards/shields/kyria/Kconfig.shield: config SHIELD_KYRIA_REV3_DONGLE
+DennGk/zmk-config:boards/shields/kyria/Kconfig.defconfig: if SHIELD_KYRIA_REV3_DONGLE
+DennGk/zmk-config:boards/shields/kyria/Kconfig.defconfig: # Set this to the number of peripherals your dongle will have.
+DennGk/zmk-config:build.yaml: #Dongle

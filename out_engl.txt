@@ -1,0 +1,22 @@
+englmaxi/zmk-config:boards/shields/sweep/sweep_dongle.conf: # dongle mode
+englmaxi/zmk-config:boards/shields/sweep/sweep_dongle.overlay: /delete-node/ &default_kscan;   // only required if the dongle uses a
+englmaxi/zmk-config:README.md: The configuration of the split boards includes the definition of a dongle that can optionally be used to extend the battery life of the left half (both sides will be peripherals). As a nice side effect, the keyboard can also be used wirelessly in the BIOS or if no Bluetooth adapter is available.
+englmaxi/zmk-config:README.md: - [**zmk-dongle-display**](https://github.com/englmaxi/zmk-dongle-display) to show the peripheral battery percentage (and more!) on the display of my dongle.
+englmaxi/zmk-config:boards/shields/sweep/Kconfig.shield: config SHIELD_SWEEP_DONGLE
+englmaxi/zmk-config:boards/shields/sweep/Kconfig.shield: def_bool $(shields_list_contains,sweep_dongle)
+englmaxi/zmk-config:boards/shields/cosmo/Kconfig.defconfig: if SHIELD_COSMO_DONGLE || SHIELD_COSMO_LEFT || SHIELD_COSMO_RIGHT
+englmaxi/zmk-config:boards/shields/cosmo/Kconfig.defconfig: endif # SHIELD_COSMO_DONGLE || SHIELD_COSMO_LEFT || SHIELD_COSMO_RIGHT
+englmaxi/zmk-config:build.yaml: artifact-name: cosmo_dongle
+englmaxi/zmk-config:build.yaml: artifact-name: rommana_dongle
+englmaxi/zmk-config:config/west.yml: - name: zmk-dongle-display
+englmaxi/zmk-config:boards/shields/cosmo/Kconfig.shield: config SHIELD_COSMO_DONGLE
+englmaxi/zmk-config:boards/shields/cosmo/Kconfig.shield: def_bool $(shields_list_contains,cosmo_dongle)
+englmaxi/zmk-config:boards/shields/rommana/Kconfig.defconfig: if SHIELD_ROMMANA_DONGLE || SHIELD_ROMMANA_LEFT || SHIELD_ROMMANA_RIGHT
+englmaxi/zmk-config:boards/shields/rommana/Kconfig.defconfig: endif # SHIELD_ROMMANA_DONGLE || SHIELD_ROMMANA_LEFT || SHIELD_ROMMANA_RIGHT
+englmaxi/zmk-config:boards/shields/cosmo/cosmo_dongle.overlay: /delete-node/ &default_kscan;   // only required if the dongle uses a
+englmaxi/zmk-config:boards/shields/rommana/Kconfig.shield: config SHIELD_ROMMANA_DONGLE
+englmaxi/zmk-config:boards/shields/rommana/Kconfig.shield: def_bool $(shields_list_contains,rommana_dongle)
+englmaxi/zmk-config:boards/shields/sweep/Kconfig.defconfig: if SHIELD_SWEEP_DONGLE || SHIELD_SWEEP_LEFT || SHIELD_SWEEP_RIGHT
+englmaxi/zmk-config:boards/shields/sweep/Kconfig.defconfig: endif # SHIELD_SWEEP_DONGLE || SHIELD_SWEEP_LEFT || SHIELD_SWEEP_RIGHT
+englmaxi/zmk-config:boards/shields/rommana/rommana_dongle.conf: # dongle mode
+englmaxi/zmk-config:boards/shields/cosmo/cosmo.conf: # dongle mode

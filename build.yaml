@@ -20,6 +20,12 @@
 ---
 include:
   - board: nice_nano//zmk
+    shield: settings_reset
+  - board: nice_nano//zmk
     shield: kyria_rev3_left
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: nice_nano//zmk
     shield: kyria_rev3_right
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+  - board: xiao_ble//zmk
+    shield: kyria_rev3_dongle seeed_xiao_expansion_board dongle_display
