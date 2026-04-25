@@ -1,0 +1,3 @@
+baracoder/zmk-config-devcontainer:config/boards/shields/kyria/Kconfig.shield: config SHIELD_KYRIA_REV3_DONGLE
+NeoLupatus/kyria:boards/shields/kyria_rev3/Kconfig.shield: config SHIELD_kyria_rev3_DONGLE
+DennGk/zmk-config:boards/shields/kyria/Kconfig.shield: config SHIELD_KYRIA_REV3_DONGLE

@@ -24,4 +24,4 @@ include:
   - board: nice_nano//zmk
     shield: kyria_rev3_right
   - board: xiao_ble
-    shield: seeed_xiao_expansion_board dongle_display
+    shield: kyria_rev3_dongle dongle_display

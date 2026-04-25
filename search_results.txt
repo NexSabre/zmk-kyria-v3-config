@@ -1,0 +1,37 @@
+carrefinho/prospector:README.md: - [englmaxi\/zmk-dongle-display](https://github.com/englmaxi/zmk-dongle-display): inspiration, display code, module docs
+rafaelromao/keyboards:scripts/b.sh: ./scripts/build.sh "rafaelromao/diamond" "cd" "LINUX" "-e" "dongle_display" "-m" "englmaxi/zmk-dongle-display" "$@"
+rafaelromao/keyboards:scripts/b.sh: ./scripts/build.sh "rafaelromao/choc_diamond" "cd" "LINUX" "-e" "dongle_display" "-m" "englmaxi/zmk-dongle-display" "$@"
+mctechnology17/zmk-nice-oled:README.md: *   **@englmaxi**: For [zmk-dongle-display](https://github.com/englmaxi/zmk-dongle-display.git), a key reference for display management.
+englmaxi/zmk-dongle-display:boards/shields/dongle_display/dongle_display.zmk.yml: url: https://github.com/englmaxi/zmk-dongle-display
+choovick/zmk-config-charybdis:readme.md: - Uses [zmk-dongle-display](https://github.com/englmaxi/zmk-dongle-display) module
+choovick/zmk-config-charybdis:readme.md: - **`englmaxi`**: Repository containing the OLED dongle display module. See [zmk-dongle-display](https://github.com/englmaxi/zmk-dongle-display).
+jbkeg/zmk-config:docs/dongle.md: - [ZMK Dongle Display](https://github.com/englmaxi/zmk-dongle-display)
+anvaka/map-of-github-data:v2/graphs/114.graph.dot: "urob/zmk-helpers" -> "englmaxi/zmk-dongle-display"
+anvaka/map-of-github-data:v2/graphs/114.graph.dot: "aroum/zmk-enki42-dongle" -> "englmaxi/zmk-dongle-display"
+qwerty22121998/chunchunkb-zmk:install-dep.sh: git clone https://github.com/englmaxi/zmk-dongle-display.git
+codeyoma/keyboard-zmk-sweep:config/boards/shields/sweep/sweep_dongle.overlay: * https://github.com/englmaxi/zmk-dongle-display/tree/main
+lucbic/kyria-keymap:CLAUDE.md: - `zmk-dongle-display` - Display support (englmaxi/zmk-dongle-display)
+te9no/zmk-config-GeaconSolstice:boards/shields/GeaconSolstice/Solstice_L.zmk.yaml: url: https://github.com/englmaxi/zmk-dongle-display
+kawvin/zmk-ky89_dongledisplay:config/west.yml: # 这里是添加dongle-display，https://github.com/englmaxi/zmk-dongle-display
+kawvin/zmk-ky89_dongledisplay:config/west.yml: # 这里是添加dongle-display，https://github.com/englmaxi/zmk-dongle-display
+janpfischer/zmk-dongle-screen:README.md: **This project is inspired by [prospector-zmk-module](https://github.com/carrefinho/prospector-zmk-module) and [zmk-dongle-display](https://github.com/englmaxi/zmk-dongle-display). Thanks for your awesome work!**
+wrvsrx/zmk-keyboard:zmk-sofle-dongle/west2nix.toml: url = "https://github.com/englmaxi/zmk-dongle-display"
+timchr42/zmk-config:config/west.yml: path: modules/englmaxi/zmk-dongle-display
+rafaelromao/keyboards:readme.md: build rafaelromao/choc_diamond cd MACOS -e dongle_display -m englmaxi/zmk-dongle-display
+ctranstrum/lintilla:README.md: [oled]: https://github.com/englmaxi/zmk-dongle-display
+H0N3YC4T/Keyboard-Prototype_Mk1:boards/shields/dongle_display/dongle_display.zmk.yml: url: https://github.com/englmaxi/zmk-dongle-display
+jbkeg/zmk-config:README_KO.md: - [ZMK Dongle Display](https://github.com/englmaxi/zmk-dongle-display): 1.3인치 OLED 화면을 지원하는 동글 펌웨어
+anscarlett/zmk-config-msplit:config/west.yml: url: https://github.com/englmaxi/zmk-dongle-display.git
+KelvinKobayashi/zmk-config-hello48:boards/shields/dongle_display/dongle_display.zmk.yml: url: https://github.com/englmaxi/zmk-dongle-display
+mctechnology17/zmk-config:README.md: - [**zmk-dongle-display**](https://github.com/englmaxi/zmk-dongle-display) to show the peripheral battery percentage (and more!) on the display of the dongle.
+mctechnology17/zmk-config:README.md: - [zmk-dongle-display](https://github.com/englmaxi/zmk-dongle-display.git) by @englmaxi
+mctechnology17/awesome-zmk:README.md: * [englmaxi/zmk-dongle-display](https://github.com/englmaxi/zmk-dongle-display) - Custom status screen for zmk dongles
+mctechnology17/zmk-dongle-display-view:README.md: You can find the original version in his [zmk-dongle-display](https://github.com/englmaxi/zmk-dongle-display).
+mctechnology17/zmk-dongle-display-view:README.md: > You can find the original version in his [zmk-dongle-display](https://github.com/englmaxi/zmk-dongle-display).
+leafflat/Skull-Widget:README.md: https://github.com/englmaxi/zmk-dongle-display/tree/main
+boumaza-samir/new-charybdis:readme.md: - Uses [zmk-dongle-display](https://github.com/englmaxi/zmk-dongle-display) module
+boumaza-samir/new-charybdis:readme.md: - **`englmaxi`**: Repository containing the OLED dongle display module. See [zmk-dongle-display](https://github.com/englmaxi/zmk-dongle-display).
+englmaxi/zmk-config:README.md: - [**zmk-dongle-display**](https://github.com/englmaxi/zmk-dongle-display) to show the peripheral battery percentage (and more!) on the display of my dongle.
+rtluckie/zmk-config:README.md: - [**zmk-dongle-display**](https://github.com/englmaxi/zmk-dongle-display) to show the peripheral battery percentage (and more!) on the display of my dongle.
+Big-Walker/BW:README.md: [oled]: https://github.com/englmaxi/zmk-dongle-display
+TergoTeclados/zmk-config-tergo-sofle:boards/shields/dongle_display/README.md: Baseado [nesse repositório](https://github.com/englmaxi/zmk-dongle-display).

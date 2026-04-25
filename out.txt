@@ -1,0 +1,36 @@
+englmaxi/zmk-dongle-display:build.yaml: shield: rommana_dongle dongle_display
+englmaxi/zmk-dongle-display:build.yaml: shield: sweep_dongle dongle_display
+leafflat/sai44:build.yaml: shield: sai44_dongle dongle_display
+frieser/zmk-config:totem.yaml: shield: totem_dongle dongle_display
+JeromeTDev/zmk-config-eyelash-corne-xiaoDongle:build.yaml: shield: eyeslash_corne_central_dongle dongle_display
+inrumi/zmk-config-charybdis-nano:build.yaml: shield: charybdis_dongle dongle_display
+frieser/zmk-config:forager.yaml: shield: forager_dongle dongle_display
+ezxzeng/zmk-config:build.yaml: shield: hector36_dongle dongle_display # comment this if no dongle
+tokyo2006/zmk-config-redox:build.yaml: shield: redox_central_dongle dongle_display
+tokyo2006/zmk-config-redox:build.yaml: shield: redox_central_dongle dongle_display
+Poldion/zmk-config-poldkey:build.yaml: shield: PoldKey_dongle dongle_display
+hailee0710/zmk-asterisk:build.yaml: shield: asterisk_dongle dongle_display
+williambonfim/zmk-config:build.yaml: shield: corne_central_dongle dongle_display
+framarbon/zmk-config:build.yaml: shield: lintilla_dongle dongle_display
+danielelombardo/zmk-config-mate:build.yaml: shield: mate_dongle dongle_display
+Gandharikos/zmk-config:build.yaml: shield: cygnus_central_dongle dongle_display
+Rawr1989/Sofle-Dongle:build.yaml: shield: eyelash_sofle_central_dongle dongle_display
+Minasokoni/zmk-config-sweep:build.yaml: shield: sweep_central_dongle dongle_display
+hanjin-kim/zmk-config:build.yaml: shield: myhand_dongle dongle_display
+Haring1988/zmk-for-velet:build.yaml: shield: velet_central_dongle dongle_display
+tokyo2006/zmk-corne-dongle:build.yaml: shield: eyeslash_corne_central_dongle dongle_display
+theharmy/harmy_zmk:build.yaml: shield: licorice1_dongle dongle_display
+AdministrativeLie/2t5:build.yaml: #   shield: rommana_central_dongle dongle_display
+AdministrativeLie/2t5:build.yaml: #   shield: rommana_central_dongle dongle_display
+9u0vad15/zmk-config:build.yaml: shield: catostyl_dongle dongle_display
+9u0vad15/zmk-config:build.yaml: shield: velella_dongle dongle_display
+KelvinKobayashi/zmk-config-hello48:build.yaml: shield: hello48_dongle dongle_display
+redmasters/zmk-corne:build.yaml: shield: corne_dongle dongle_display
+codeyoma/keyboard-zmk-charybdis:build.yaml: #   shield: charybdis_dongle dongle_display
+joaomaridalho/zmk-config-totem:build.yaml: shield: totem_dongle dongle_display
+midrash/zmk-config:build.yaml: #   shield: corne_central_dongle dongle_display
+midrash/zmk-config:build.yaml: #   shield: corne_central_dongle dongle_display_091_oled
+qwerty22121998/zmk_config_sofle:build.yaml: shield: sofle_dongle dongle_display_091_oled
+qwerty22121998/zmk_config_sofle:build.yaml: shield: sofle_dongle dongle_display
+dotleon/zmk_50keylove_v4:build.yaml: #   shield: 50keylove_v4_dongle dongle_display
+feidon/zmk-eyelash-corne:build.yaml: shield: eyelash_corne_dongle dongle_display
