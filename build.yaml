@@ -23,3 +23,5 @@ include:
     shield: kyria_rev3_left
   - board: nice_nano//zmk
     shield: kyria_rev3_right
+  - board: xiao_ble
+    shield: sweep_dongle dongle_display
