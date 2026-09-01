@@ -91,6 +91,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
+            display-name = "Base";
             // ---------------------------------------------------------------------------------------------------------------------------------
             // |  ESC  |  Q  |  W  |  E   |  R   |  T   |                                          |  Y   |  U    |  I    |  O   |   P   |   \  |
             // |  TAB  |  A  |  S  |  D   |  F   |  G   |                                          |  H   |  J    |  K    |  L   |   ;   |   '  |
@@ -106,6 +107,7 @@
         };
 
         layer_3_navigation {
+            display-name = "Nav";
             bindings = <
 &kp C_BRIGHTNESS_INC  &trans        &trans        &trans     &trans          &zoom_share                                  &kp PAGE_UP    &kp HOME        &kp UP_ARROW      &kp END     &kp C_VOLUME_UP    &kp DELETE
 &kp C_BRIGHTNESS_DEC  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &zoom_video                                  &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT   &kp C_VOLUME_DOWN  &kp INS
@@ -115,6 +117,7 @@
         };
 
         layer_4_shift {
+            display-name = "Sym";
             bindings = <
 &kp GRAVE  &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp NUMBER_5                                                             &kp NUMBER_6       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp EQUAL
 &kp TILDE  &kp EXCL       &kp AT_SIGN   &kp HASH       &kp DOLLAR    &kp PERCENT                                                              &kp CARET          &kp AMPS      &kp ASTRK     &kp LPAR      &kp RPAR      &kp PLUS
@@ -124,6 +127,7 @@
         };
 
         layer_5 {
+            display-name = "Fn";
             bindings = <
 &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans                                  &trans  &trans     &trans     &trans    &trans    &trans
 &trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans                                  &trans  &kp RSHFT  &kp RCTRL  &kp LALT  &kp LGUI  &trans
@@ -133,6 +137,7 @@
         };
 
         function_layer {
+            display-name = "BT";
             // ---------------------------------------------------------------------------------------------------------------------------------
             // |       |      |BT_CLR|BTSEL0|BTSEL1|BTSEL2|                                         |      |      |      |      |      |      |
             // |       |      |      |BTSEL3|BTSEL4|      |                                         |      |      |      |      |      |      |
